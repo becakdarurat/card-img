@@ -1,0 +1,75 @@
+body {
+    width: calc(100vw - 40px);
+    height: 100vh;
+    font-size: 62.5%;
+    background-color: rgba(255, 255, 0, 0.774);
+    display: flex;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    margin: auto;
+    max-width: 24.6%;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px black;
+}
+.card header {
+    display: flex;
+    margin-top: 10px;
+    height: 201px;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -20px;
+    background-size: 300px 300px;
+}
+.card-content p:nth-child(1) {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color:  rgba(255, 255, 0, 0.774);
+    color: black;
+    font-weight: bold;
+}
+.card-content p:nth-child(2) {
+    color: black;
+    font-weight: 500;
+    margin-top: -4px;
+    font-size: 15px;
+}
+.card-content h2 {
+    font-weight: bold !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-content p:nth-child(4) {
+    color: #aaa !important;
+}
+/* Footer */
+footer {
+    display: flex;
+}
+footer span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 70px;
+    margin-left: 5px;
+}
+
+
+/* Media query */
+@media  screen and (min-width: 578px){
+   .card {
+        margin: auto;
+        max-width: 300px  !important;
+   }
+
+}
